@@ -370,7 +370,7 @@ main{width:100%;}
     display: flex;
     justify-content: space-between;
     padding: 30px 80px;
-    background: #5b5b5b;
+    background: #5b5b5b;;
 }
 .copyright_footerMenu{
     display: flex;
@@ -404,14 +404,14 @@ main{width:100%;}
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end; 
+    align-items: flex-end;
 }
 .currency{
     border: 1px solid #ddd;
     padding: 5px 10px;
     position: relative;
+    width: 110px;
 }
-.currency span{}
 .currency>a{ margin-left: 5px;width:10px; height: 10px; display: inline-block;
     background: url(../img/dd-down.svg) no-repeat center center;
 }
@@ -433,27 +433,26 @@ main{width:100%;}
 .currency .currencys>div ul li a{
     color: #333
 }
-.sns{}
-.sns div{}
+
 .sns div ul{display: flex; gap:20px}
-.sns div ul li{
+.currency_sns .sns>div>ul>li{
     width: 24px;
     height: 24px;
 }
 .sns div ul .ins{
-    background: url(../img/instagram.svg)no-repeat;
+    background: url(../img/instagram.svg) no-repeat;
 }
 .sns div ul .face{
-    background: url(../img/facebook.svg)no-repeat;
+    background: url(../img/facebook.svg) no-repeat;
 }
 .sns div ul .pin{
-    background: url(../img/pinterest.svg)no-repeat;
+    background: url(../img/pinterest.svg) no-repeat;
 }
 .sns div ul .linke{
-    background: url(../img/linkedin.svg)no-repeat;
+    background: url(../img/linkedin.svg) no-repeat;
 }
 .sns div ul .spot{
-    background: url(../img/instagram.svg)no-repeat;
+    background: url(../img/spotify.svg) no-repeat;
 }
 
 
@@ -462,16 +461,16 @@ main{width:100%;}
         padding: 0 20px;
     }
     #footer{
-    display: flex;
-    flex-direction: column;
-    padding: 30px 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 50px;
     }
     .currency_sns{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start; 
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
     }
     .currency{
         order: 1;
@@ -510,7 +509,7 @@ main{width:100%;}
         width: 50%;
     }
     .currency_sns{
-    display: block;
+        display: block;
     }
     .sns{
         margin-top: 20px;
@@ -519,9 +518,10 @@ main{width:100%;}
         display: block;
     }
     .footerMenu{
-        display: block;
         margin-top: 20px;
+        display: block;
     }
+    
 }
 @media screen and (max-width:568px){
     #section2 ul li>div{

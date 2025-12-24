@@ -209,7 +209,6 @@ main{width:100%;}
     background: #fff;
     padding: 100px 0;
     overflow: hidden;
-   
 }
 #section3 h2{
     color: #9f9999;
@@ -540,4 +539,10 @@ main{width:100%;}
     .gallery-wrap li{
         width:100%;
     }
+    #section3{
+    padding: 20px 0;
+    }
+    .filter-form .form-item label{
+    padding: 16px 16px;
+}
 }
